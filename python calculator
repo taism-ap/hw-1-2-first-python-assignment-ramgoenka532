@@ -3,8 +3,7 @@
 number1= int(input("number"))
 number2= int(input("second number"))
 a= input("operator")
-x= int(input("exponent value"))
-#you can perform another operation with an exponent if you wish to.
+
 
 if a == "+":
   print (float(number1) + float(number2))
@@ -18,5 +17,4 @@ if a == "*":
 if a == "/":
   print ((number1) / (number2))
 
-if a == "^":
-  print ((number1)^x)
+
